@@ -1,0 +1,312 @@
+{"ReturnCode":"1",
+"ReturnMsg":"Data saved successfully.","ReturnValue":"",
+"Data":{
+"Question":[{"ID":1,"Question":"Overall, how would you rate the event?","Answer":""}]
+,{"ID":2,"Question":"How do you think this event could have been improved?","Answer":""}
+,{"ID":3,"Question":"How likely are you to recommend our events to a friend/colleague?","Answer":""},
+{"ID":4,"Question":"Do you have any other suggestions or comments to help us improve our future events? ","Answer":""},
+{"ID":5,"Question":"How beneficial was the information presented at this event?","Answer":""},
+{"ID":6,"Question":"How satisfied were you with the agenda for the day?","Answer":""}],
+"Link":[{"ID":1,"Name":"AboutUs","Text":"http://suvidhasarathi.pmbi.co.in/staticpages/AboutUs_Page.aspx"},
+{"ID":2,"Name":"ContactUs","Text":"http://suvidhasarathi.pmbi.co.in/staticpages/ContactUs_Page.aspx"},
+{"ID":3,"Name":"FAQs","Text":"http://suvidhasarathi.pmbi.co.in/staticpages/Faqs_Home.aspx"},
+{"ID":4,"Name":"TOS","Text":"https://kidshealth.org/en/kids/pads-tampons.html"}
+,};
+
+
+
+
+  {
+  "data": {
+    "ReturnCode": "1",
+    "ReturnMsg": "Data saved successfully.",
+    "ReturnValue": "",
+    "Data": {
+      "Question": [
+        {
+          "ID": 1,
+          "Question": "Overall, how would you rate the event?",
+          "Answer": ""
+        },
+        {
+          "ID": 2,
+          "Question": "How do you think this event could have been improved?",
+          "Answer": ""
+        },
+        {
+          "ID": 3,
+          "Question": "How likely are you to recommend our events to a friend/colleague?",
+          "Answer": ""
+        },
+        {
+          "ID": 4,
+          "Question": "Do you have any other suggestions or comments to help us improve our future events? ",
+          "Answer": ""
+        },
+        {
+          "ID": 5,
+          "Question": "How beneficial was the information presented at this event?",
+          "Answer": ""
+        },
+        {
+          "ID": 6,
+          "Question": "How satisfied were you with the agenda for the day?",
+          "Answer": ""
+        }
+      ],
+      "Link": [
+        {
+          "ID": 1,
+          "Name": "AboutUs",
+          "Text": "http://203.109.103.26:4000/StaticPages/AboutUs_Page.aspx"
+        },
+        {
+          "ID": 2,
+          "Name": "ContactUs",
+          "Text": "http://203.109.103.26:4000/StaticPages/ContactUs_Page.aspx"
+        },
+        {
+          "ID": 3,
+          "Name": "FAQs",
+          "Text": "http://203.109.103.26:4000/StaticPages/FAQs_Home.aspx"
+        },
+        {
+          "ID": 4,
+          "Name": "TOS",
+          "Text": "https://kidshealth.org/en/kids/pads-tampons.html"
+        },
+        {
+          "ID": 5,
+          "Name": "Privacy",
+          "Text": "https://kidshealth.org/en/kids/pads-tampons.html"
+        },
+        {
+          "ID": 6,
+          "Name": "ShareText",
+          "Text": "https://kidshealth.org/en/kids/pads-tampons.html"
+        },
+        {
+          "ID": 7,
+          "Name": "WhyPadKranti",
+          "Text": "http://203.109.103.26:4000/StaticPages/whyPadkranti.aspx"
+        }
+      ],
+      "Bank": {
+        "BankName": "HDFC BANK LTD",
+        "AccountHolderName": "Padshala Charitable Trust",
+        "IFSCCode": "HDFC0003779",
+        "AccoutNumber": "50200034247008",
+        "Address": "304, New York Arcade, Near Bhavya Park, Bopal, Ahmedabad, Gujarat, India - 380058"
+      }
+    }
+  },
+
+  "status": 200,
+  "headers": {
+    "content-length": "1521",
+    "expires": "-1",
+    "x-aspnet-version": "4.0.30319",
+    "pragma": "no-cache",
+    "date": "Wed, 22 Feb 2023 10:00:58 GMT",
+    "x-powered-by": "ASP.NET",
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-cache"
+  },
+  "config": {
+    "url": "http://203.109.103.26:4001//GetAllStaticData",
+    "method": "post",
+    "data": "{\"LanguageID\":1,\"ApiKey\":123}",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/json"
+    },
+    "transformRequest": [
+      null
+    ],
+    "transformResponse": [
+      null
+    ],
+    "timeout": 0,
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+    "maxContentLength": -1,
+    "maxBodyLength": -1,
+    "transitional": {
+      "silentJSONParsing": true,
+      "forcedJSONParsing": true,
+      "clarifyTimeoutError": false
+    }
+  },
+  "request": {
+    "UNSENT": 0,
+    "OPENED": 1,
+    "HEADERS_RECEIVED": 2,
+    "LOADING": 3,
+    "DONE": 4,
+    "readyState": 4,
+    "status": 200,
+    "timeout": 0,
+    "withCredentials": true,
+    "upload": {},
+    "_aborted": false,
+    "_hasError": false,
+    "_method": "POST",
+    "_perfKey": "network_XMLHttpRequest_http://203.109.103.26:4001//GetAllStaticData",
+    "_response": "{\"ReturnCode\":\"1\",\"ReturnMsg\":\"Data saved successfully.\",\"ReturnValue\":\"\",\"Data\":{\"Question\":[{\"ID\":1,\"Question\":\"Overall, how would you rate the event?\",\"Answer\":\"\"},{\"ID\":2,\"Question\":\"How do you think this event could have been improved?\",\"Answer\":\"\"},{\"ID\":3,\"Question\":\"How likely are you to recommend our events to a friend/colleague?\",\"Answer\":\"\"},{\"ID\":4,\"Question\":\"Do you have any other suggestions or comments to help us improve our future events? \",\"Answer\":\"\"},{\"ID\":5,\"Question\":\"How beneficial was the information presented at this event?\",\"Answer\":\"\"},{\"ID\":6,\"Question\":\"How satisfied were you with the agenda for the day?\",\"Answer\":\"\"}],\"Link\":[{\"ID\":1,\"Name\":\"AboutUs\",\"Text\":\"http://203.109.103.26:4000/StaticPages/AboutUs_Page.aspx\"},{\"ID\":2,\"Name\":\"ContactUs\",\"Text\":\"http://203.109.103.26:4000/StaticPages/ContactUs_Page.aspx\"},{\"ID\":3,\"Name\":\"FAQs\",\"Text\":\"http://203.109.103.26:4000/StaticPages/FAQs_Home.aspx\"},{\"ID\":4,\"Name\":\"TOS\",\"Text\":\"https://kidshealth.org/en/kids/pads-tampons.html\"},{\"ID\":5,\"Name\":\"Privacy\",\"Text\":\"https://kidshealth.org/en/kids/pads-tampons.html\"},{\"ID\":6,\"Name\":\"ShareText\",\"Text\":\"https://kidshealth.org/en/kids/pads-tampons.html\"},{\"ID\":7,\"Name\":\"WhyPadKranti\",\"Text\":\"http://203.109.103.26:4000/StaticPages/whyPadkranti.aspx\"}],\"Bank\":{\"BankName\":\"HDFC BANK LTD\",\"AccountHolderName\":\"Padshala Charitable Trust\",\"IFSCCode\":\"HDFC0003779\",\"AccoutNumber\":\"50200034247008\",\"Address\":\"304, New York Arcade, Near Bhavya Park, Bopal, Ahmedabad, Gujarat, India - 380058\"}}}",
+    "_url": "http://203.109.103.26:4001//GetAllStaticData",
+    "_timedOut": false,
+    "_trackingName": "unknown",
+    "_incrementalEvents": false,
+    "responseHeaders": {
+      "Content-Length": "1521",
+      "Expires": "-1",
+      "X-AspNet-Version": "4.0.30319",
+      "Pragma": "no-cache",
+      "Date": "Wed, 22 Feb 2023 10:00:58 GMT",
+      "X-Powered-By": "ASP.NET",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "no-cache"
+    },
+    "_requestId": null,
+    "_headers": {
+      "accept": "application/json, text/plain, */*",
+      "content-type": "application/json"
+    },
+    "_responseType": "",
+    "_sent": true,
+    "_lowerCaseResponseHeaders": {
+      "content-length": "1521",
+      "expires": "-1",
+      "x-aspnet-version": "4.0.30319",
+      "pragma": "no-cache",
+      "date": "Wed, 22 Feb 2023 10:00:58 GMT",
+      "x-powered-by": "ASP.NET",
+      "content-type": "application/json; charset=utf-8",
+      "cache-control": "no-cache"
+    },
+    "_subscriptions": [],
+    "responseURL": "http://203.109.103.26:4001//GetAllStaticData"
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
